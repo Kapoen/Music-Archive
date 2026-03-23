@@ -19,7 +19,7 @@ const App = () => {
     return (
         <AuthProvider>
             <SongProvider>
-                <BrowserRouter basename="/MusicArchive">
+                <BrowserRouter basename="/Music-Archive">
                     <Routes>
                         <Route path="/login" element={<Login />} />
                         <Route path="/register" element={<Register />} />
